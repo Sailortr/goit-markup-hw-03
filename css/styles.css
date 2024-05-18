@@ -169,7 +169,7 @@ ul {
   justify-content: center;
 }
 
-.header-hidden {
+.visually-hidden {
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -181,14 +181,13 @@ ul {
   flex: 1;
   flex-direction: row;
   justify-content: center;
-  gap: 30px;
+  gap: 24px;
   background-color: #fff;
   max-width: 80%;
   margin: auto;
 }
 
-.mission-list .section-two-list {
-
+.mission-list li {
   width: calc((100% - 72px) / 4);
 }
 
