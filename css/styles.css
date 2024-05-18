@@ -301,7 +301,7 @@ ul {
   padding: 0;
 }
 
-.porffolio-list {
+.portfolio-list {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -309,6 +309,7 @@ ul {
 }
 
 .portfolio-header {
+  margin-bottom: 72px;
   line-height: 1.11;
   font-size: 36px;
   text-align: center;
